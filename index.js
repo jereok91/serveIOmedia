@@ -1,4 +1,5 @@
-const app = require('express')();
+const express = require('express');
+var app = express();
 const media_sever= require('./server-media');
 media_sever.run();
 publicDir = `${__dirname}/server`;
